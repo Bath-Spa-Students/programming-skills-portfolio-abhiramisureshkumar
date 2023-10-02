@@ -1,0 +1,1 @@
+# create a program ton output "hi" 50 times,without any separator
