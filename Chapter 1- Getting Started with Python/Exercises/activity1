@@ -1,0 +1,16 @@
+name = (input("Enter name: "))
+name1= (input("father's name :"))
+age = (input("enter age:"))
+address = (input("enter address"))
+place = (input("enter place:"))
+number = (input("enter number:"))
+
+
+
+
+print(name)
+print(name1)
+print(age)
+print(address)
+print(place)
+print(number)
