@@ -7,9 +7,6 @@
 #Then print the name using each of the three stripping functions, lstrip(), rstrip(), and strip().
 
 
-
-
-
 name = "\tabhirami sureshkumar\n"
 
 print("Unmodified:")
