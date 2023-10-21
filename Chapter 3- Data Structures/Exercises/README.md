@@ -21,11 +21,9 @@ Store the names of a few of your friends in a list called names. Print each pers
 
 ## Exercise 2: Greetings :ballot_box_with_check:
 
-Start with the list you used in Exercise 1, but instead of just
+Store the names of a few of your friends in a list called names. Print each person’s name by accessing each element in the list, one at a
 
-printing each person’s name, print a message to them. The text of each message should be the same, but each message should be 
-
-personalized with the person’s name.
+ time.
 
 
 
