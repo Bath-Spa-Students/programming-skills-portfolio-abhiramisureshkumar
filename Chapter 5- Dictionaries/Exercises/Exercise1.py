@@ -6,7 +6,6 @@ person = {'first_name': 'Abhirami',
           'age': 18,
           'city': 'RAK',
     }
-
 print(person['first_name'])
 print(person['last_name'])
 print(person['age'])

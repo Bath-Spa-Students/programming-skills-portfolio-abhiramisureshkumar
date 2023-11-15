@@ -5,8 +5,8 @@
 #arguments to make a shirt. Call the function a second time using keyword arguments.
 def make_shirt(size,message):
     """summarize the shirt that's going to be made"""
-    print("\ni'm going to make a "+size+" t-shirt")
-    print("it will be printed like"+message+ "'")
+    print("\ni'm going to make a "+ size +" t-shirt")
+    print("it will be printed like"+ message + "'")
 
     make_shirt('large','bathspa university')
     make_shirt(message="readability count",size='medium')
