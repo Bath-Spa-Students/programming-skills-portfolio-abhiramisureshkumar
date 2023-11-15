@@ -4,4 +4,13 @@
 
 #each pet
 
+my_pets=[
+    {"kind": "Dog","owner": "Alexa"},
+    {"kind": "Cat","owner": "Philips"},
+    {"kind": "Birds","owner": "George"},
+    {"kind": "Fish","owner": "Aviona"},
+]
 
+for pet in my_pets:
+    print(f"kind of animal: {pet['kind']}\n")
+    print(f"owner's name:{pet ['owner']}\n")
