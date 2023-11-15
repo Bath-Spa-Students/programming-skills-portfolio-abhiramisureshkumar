@@ -6,7 +6,6 @@
 
 #should print a statement,such as You really like bananas!
 fav_fruits = ['apple', 'orange', 'mango']
-
 if 'peaches' in fav_fruits:
     print("You love peaches!")
 if 'apple' in fav_fruits:
