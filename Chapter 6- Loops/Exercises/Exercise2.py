@@ -3,9 +3,9 @@
 #they are between 3 and 12, the ticket is $10; and if they are over age 12, the ticket is $15. Write a loop in which you ask users their 
 
 #age, and then tell them the cost of their movie ticket
+
 prompt ="\nhow old are you?"
 prompt +="\nenter 'quit' when you are finished."
-
 while True:
     age = input(prompt)
     if age== 'quit':
@@ -16,6 +16,5 @@ if age < 3:
     print("free!")
 elif age < 13:
    print("ticket is $10")
-
 else:
   print("ticket is $15")
