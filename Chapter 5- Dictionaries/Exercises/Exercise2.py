@@ -9,14 +9,11 @@ glossary = {
     "string": "A series of characters.",
     "comment": "A note in a program that the Python interpreter ignores.",
     "list": "A collection of items in a particular order.",
-    
     "if"  : "if statement evaluates condition",
     "elif": "used to test multiple condition",
     "else": "used to execute both the true part and the false part of a given condition",
 
     }
-
-
 print(f"\n", "string",glossary["string"])
 print(f"\n", "comment",glossary["comment"])
 print(f"\n", "list",glossary["list"])
