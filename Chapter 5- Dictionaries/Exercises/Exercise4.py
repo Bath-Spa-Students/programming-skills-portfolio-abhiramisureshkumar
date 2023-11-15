@@ -7,7 +7,20 @@
 #* Use a loop to print the name of each country included in the dictionary.
 
 rivers=  {
-    'yamuna':'india'
-    'nile' 'egypt',
-    'mississippi':'united states',
+    'Amazon':'Brazil',
+    'Nile': 'Egypt',
+    'Mississippi':'United States',
 }
+for river,country in rivers.items():
+    print(f"the {river} flows through {country}.")
+
+print("\nRivers:")
+for river in rivers.keys():
+  print(river)
+
+print("\ncountries:")
+for country in rivers.values():
+  print(country)
+
+
+
