@@ -3,3 +3,9 @@
 #such as Reykjavik is in Iceland. Give the parameter for the country a default value.
 
 #Call your function for three different cities, at least one of which is not in the default country.
+def describe_city(name,country="INDIA"): 
+     print(f'{name} is in {country}')
+
+describe_city("palakkad")
+describe_city("kollam")
+describe_city("thrissur","india")

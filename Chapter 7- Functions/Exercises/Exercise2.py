@@ -2,8 +2,9 @@
 
 #favorite books is Alice in Wonderland. Call the function, making sure to include a book title as an argument in the function call.
 
-def fav_book(title):
-    """display a message about someones favourite book"""
-    print(title +" is one of my favourite books.")
+def favourite_book(title):
+    print("the book i'm reading is; ",title)
 
-    fav_book('It Ends With Us')
+    title=input("enter your favourite book: ")
+    #calling a function
+    favourite_book(title)
