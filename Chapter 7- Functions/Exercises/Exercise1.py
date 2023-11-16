@@ -3,8 +3,6 @@
 #function, and make sure the message displays correctly.
 
 def display_message():
-    """display a message about what i'm learning."""
-    msg="I'm learning store code in functions"
-    print(msg)
+    print("we are learning about the use of functions in this chapter")
 
     display_message()
