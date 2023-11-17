@@ -10,3 +10,4 @@ while True:
         break
     print("the maximum number is : ",max(num_list))
     print("the minimum number is : ",min(num_list))
+3

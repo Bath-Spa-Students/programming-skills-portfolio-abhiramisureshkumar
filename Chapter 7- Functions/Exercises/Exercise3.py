@@ -4,15 +4,11 @@
 
 #arguments to make a shirt. Call the function a second time using keyword arguments.
 def make_shirt(size,message):
-    print("the size and the message for the given shirt is: ",size,message)
-    make_shirt(6,"bathspa university")
+    print("\nthe size  for the given shirt is: ",  size)
+    print('the message on it', message)
 
-size=int(input("enter your shirt size:"))
-size=int(input("confirm your shirt size:"))
-msg=input("enter the message!")
-
-
-make_shirt(size,msg)
+make_shirt('large','bathspa university')
+make_shirt(message="coding is fun",size='medium')
 
 
 

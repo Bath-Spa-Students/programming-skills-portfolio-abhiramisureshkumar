@@ -3,8 +3,7 @@
 #favorite books is Alice in Wonderland. Call the function, making sure to include a book title as an argument in the function call.
 
 def favourite_book(title):
-    print("the book i'm reading is; ",title)
+    print("the book i'm reading is; " + title)
 
-    title=input("enter your favourite book: ")
-    #calling a function
-    favourite_book(title)
+    
+    favourite_book("IT ENDS WITH US")
