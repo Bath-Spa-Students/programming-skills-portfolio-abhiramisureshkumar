@@ -7,3 +7,21 @@
 #•Print a message to each of the two people still on your list, letting them know they’re still invited.
 
 #•Use del to remove the last two names from your list, so you have an empty list. Print your list to make sure you actually have an empty list at the end of your program.
+members = ['sofi', 'sara', 'alex']
+print(f" i'm inviting you to join for dinner with me tonight.{members[0]}")
+print(f" i'm inviting you to join for dinner with me tonight.{members[1]}")
+print(f" i'm inviting you to join for dinner with me tonight.{members[2]}")
+print(f"{members[2]}, can't make it for dinner with me tonight.")
+members[2]="aviona"
+print(members)
+print(f" i'm inviting you to join for dinner with me tonight.please come {members[0]}")
+print(f" i'm inviting you to join for dinner with me tonight.please come {members[1]}")
+print(f" i'm inviting you to join for dinner with me tonight.please come {members[2]}")
+print("sorry guys,i need to shrink the number of people.so only two people can join with me")
+name=members.pop(2)
+print(f"{name} i'm sorry , but i won't be able you invite you for dinner with me tonight.")
+print(f"{members[0]}, you're still invited.please come")
+print(f"{members[1]}you're still invited.please come")
+del members[0]
+print(members)
+
